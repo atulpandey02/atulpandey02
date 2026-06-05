@@ -30,11 +30,11 @@ I'm a **Data Engineer** with **6+ years** of experience building scalable data i
 
 <div align="center">
 
-🔗 **[idyllic-tiramisu-4f7c97.netlify.app](https://idyllic-tiramisu-4f7c97.netlify.app/)**
+🔗 **[atulpandey.dev](https://atulpandey.dev/)**
 
 Explore my full portfolio with interactive project walkthroughs, architecture diagrams, impact metrics, and professional journey — all in one place.
 
-[![Visit Portfolio](https://img.shields.io/badge/🚀_Explore_My_Portfolio-FF5722?style=for-the-badge&logoColor=white)](https://idyllic-tiramisu-4f7c97.netlify.app/)
+[![Visit Portfolio](https://img.shields.io/badge/🚀_Explore_My_Portfolio-FF5722?style=for-the-badge&logoColor=white)](https://atulpandey.dev/)
 
 </div>
 
