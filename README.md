@@ -16,7 +16,7 @@
 
 ## 🧑‍💻 About Me
 
-I'm a **Data Engineer** with **6+ years** of experience building scalable data infrastructure, real-time pipelines, and analytics platforms. Currently pursuing my **MS in Business Analytics – Big Data** at UMass Boston (4.0 GPA, May 2026).
+I'm a **Data Engineer** with **6+ years** of experience building scalable data infrastructure, real-time pipelines, and analytics platforms. Completed my **MS in Business Analytics – Big Data** at UMass Boston (4.0 GPA, May 2026).
 
 - 🔧 Built production ETL pipelines processing **500K+ records/day** for a **150M+ user** platform
 - ⚡ Reduced data processing time by **75%** through Python/SQL optimization
@@ -89,12 +89,12 @@ Explore my full portfolio with interactive project walkthroughs, architecture di
 <tr>
 <td width="50%">
 
-### 📈 [Real-Time Stock Market Pipeline](https://github.com/atulpandey02/)
-**Kafka · Spark Streaming · Snowflake · Airflow · Docker**
+### 📈 [Stock Market Intelligence Pipeline V2](https://github.com/atulpandey02/stock-market-lakehouse)
+**Kafka · Spark · Iceberg · Snowflake · dbt · FastAPI · Pinecone · Groq · Airflow · Docker**
 
-Built a Lambda-style architecture with batch + streaming data at sub-second latency. Kafka dual-topic ingestion → Spark Structured Streaming (15min/1hr windows) → Snowflake. Orchestrated via Airflow DAGs with custom sensors, retry logic, and data-quality checks.
+Production-grade lakehouse with dual batch + streaming pipelines into Apache Iceberg on MinIO (ACID, time travel). Snowflake RBAC with column masking. Hybrid RAG system fusing dbt BUY/SELL signals with 300+ Pinecone news embeddings via Groq LLM. FastAPI layer (7 endpoints) with NL2SQL, rate limiting, and centralized access control. AI observability via Bronze/Silver/Gold Medallion tables. 27 dbt tests + CI/CD on every commit.
 
-`Real-Time` `Lambda Architecture` `Window Aggregations`
+`Lakehouse` `RAG + GenAI` `NL2SQL` `FastAPI` `LLM Observability` `Apache Iceberg`
 
 </td>
 <td width="50%">
@@ -111,12 +111,12 @@ Medallion Architecture (Bronze → Silver → Gold) with ADF event-triggered ing
 <tr>
 <td width="50%">
 
-### 🎵 [Spotify Analytics ETL Pipeline](https://github.com/atulpandey02/spotify-aws-snowflake-etl)
-**AWS Lambda · Glue · Airflow · Snowpipe · Snowflake**
+### 🤖 [Enterprise Document Intelligence RAG Pipeline](https://github.com/atulpandey02/enterprise-doc-intelligence)
+**Airflow · LangChain · Pinecone · BM25 · Groq · Docker**
 
-Serverless ETL from Spotify API → S3 → Glue → Snowflake with Airflow orchestration. Event-driven S3KeySensor triggers for zero-delay processing. Dimensional schema design with deduplication logic.
+Airflow-orchestrated RAG pipeline ingesting enterprise PDFs and Word docs — recursive text chunking, sentence-transformer embeddings, 1,134 vectors in Pinecone. MD5 hash CDC auto-refresh keeps the knowledge base current without full reprocessing.
 
-`Serverless` `Event-Driven` `Dimensional Modeling`
+`RAG` `Hybrid Retrieval` `LLMOps` `Document Intelligence`
 
 </td>
 <td width="50%">
@@ -133,22 +133,22 @@ Serverless ETL from Spotify API → S3 → Glue → Snowflake with Airflow orche
 <tr>
 <td width="50%">
 
-### 🎵 [Spotify Airflow-Glue-Snowpipe Pipeline](https://github.com/atulpandey02/spotify-airflow-glue-snowpipe-snowflake)
-**Airflow · AWS Glue · Snowpipe · Snowflake**
+### 🛍️ [E-Commerce Analytics Lakehouse](https://github.com/atulpandey02/ecom-analytics-pipeline-azure-databricks)
+**Azure Databricks · ADLS Gen2 · Data Factory · Delta Lake**
 
-End-to-end pipeline extracting Spotify data through Airflow-scheduled workflows, transforming via Glue, and auto-loading to Snowflake through Snowpipe — analytics-ready datasets for dashboarding.
+Medallion Architecture (Bronze → Silver → Gold) with ADF event-triggered ingestion. PySpark framework with 15+ data quality rules. ACID transactions + schema evolution via Delta Lake for time-travel auditing.
 
-`Workflow Orchestration` `Snowpipe` `ETL`
+`Medallion Architecture` `Delta Lake` `ACID`
 
 </td>
 <td width="50%">
 
-### 🐦 [Twitter ETL to S3 (Airflow on EC2)](https://github.com/atulpandey02/airflow-ec2-twitter-to-s3)
-**Airflow · EC2 · Tweepy · S3**
+### 🎵 [Spotify Analytics ETL Pipeline](https://github.com/atulpandey02/spotify-aws-snowflake-etl)
+**AWS Lambda · Glue · Airflow · Snowpipe · Snowflake**
 
-Production-style ETL pulling tweets via Tweepy, scheduled daily with Airflow on EC2, landing cleaned CSV outputs in S3. A clear demonstration of cloud-native orchestration fundamentals.
+Serverless ETL from Spotify API → S3 → Glue → Snowflake with Airflow orchestration. Event-driven S3KeySensor triggers for zero-delay processing. Dimensional schema design with deduplication logic.
 
-`Airflow on EC2` `API Ingestion` `S3`
+`Serverless` `Event-Driven` `Dimensional Modeling`
 
 </td>
 </tr>
@@ -173,14 +173,15 @@ Production-style ETL pulling tweets via Tweepy, scheduled daily with Airflow on 
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS_Certified_Data_Engineer-Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![IBM](https://img.shields.io/badge/IBM_Data_Engineering-Professional-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Data_Engineering_Professional-0056D2?style=for-the-badge&logo=coursera&logoColor=white)
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-RAG_%26_LLMOps-0056D2?style=for-the-badge&logo=coursera&logoColor=white)
+![Datavidhya](https://img.shields.io/badge/Datavidhya-Snowflake_%7C_Spark_%7C_Airflow_%7C_Kafka-FF6B35?style=for-the-badge&logoColor=white)
 
 </div>
 
-- ✅ **AWS Certified Data Engineer – Associate**
-- ✅ **IBM Data Engineering Professional Certificate**
-- ✅ **Datavidhya** — Snowflake · Spark with Databricks · Airflow · Kafka
+- ✅ **DeepLearning.AI** — Data Engineering Professional Certificate
+- ✅ **DeepLearning.AI** — Vector Databases & Embeddings, RAG, LangChain for LLM Applications, LLMOps
+- ✅ **Datavidhya** — Data Warehousing with Snowflake · Apache Spark with Databricks · Apache Airflow · Apache Kafka
 
 ---
 
@@ -203,7 +204,7 @@ I'm actively looking for **Data Engineer** roles where I can build scalable data
 
 [![LinkedIn](https://img.shields.io/badge/Let's_Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atulpandey02/)
 [![Email](https://img.shields.io/badge/Reach_Out-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:atulpandey02@gmail.com)
-[![Portfolio](https://img.shields.io/badge/🌐_View_Portfolio-FF5722?style=for-the-badge&logoColor=white)](https://idyllic-tiramisu-4f7c97.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/🌐_View_Portfolio-FF5722?style=for-the-badge&logoColor=white)](https://atulpandey.dev/)
 
 </div>
 
