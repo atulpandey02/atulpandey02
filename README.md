@@ -3,7 +3,7 @@
 
 # Hey there, I'm Atul Kumar Pandey 👋
 
-### Data Engineer · AWS Certified · MS Business Analytics (Big Data)
+### Data Engineer · MS Business Analytics (Big Data)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atulpandey02/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:atulpandey02@gmail.com)
@@ -21,7 +21,6 @@ I'm a **Data Engineer** with **6+ years** of experience building scalable data i
 - 🔧 Built production ETL pipelines processing **500K+ records/day** for a **150M+ user** platform
 - ⚡ Reduced data processing time by **75%** through Python/SQL optimization
 - 👥 Led a **40-member analytics team** — mentoring engineers and managing cross-functional delivery
-- ☁️ **AWS Certified Data Engineer – Associate**
 - 📍 Based in **Boston, MA** · Open to full-time Data Engineering roles
 
 ---
